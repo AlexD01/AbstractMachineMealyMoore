@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp3.myrasoo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="myrasoo" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <ScrollViewer >
+            <Canvas Name="Canvas" Background="White" VerticalAlignment="Top"  >
+                <Button Name="BT1" Content="Создать" Canvas.Left="10" Canvas.Top="8" Width="90" Click="BT1_Click" />
+            </Canvas>
+        </ScrollViewer>
+    </Grid>
+</Window>
